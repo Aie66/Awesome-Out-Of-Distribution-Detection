@@ -67,7 +67,7 @@ A curated list of awesome out-of-distribution detection resources.
 ## Approaches with only ID Data
 
 ### Reconstruction-based
-
+- `Forte` [Ganguly et al.][ICLR 2025]**Forte : Finding Outliers with Representation Typicality Estimation**[[PDF](https://arxiv.org/abs/2410.01322)]
 - `DiffPath` [Heng et al.][NeurIPS 2024]**Out-of-Distribution Detection with a Single Unconditional Diffusion Model**[[PDF](https://openreview.net/forum?id=tTnFH7D1h4&referrer=%5Bthe%20profile%20of%20Harold%20Soh%5D(%2Fprofile%3Fid%3D~Harold_Soh1))]
 - `Exploiting Diffusion Prior` [Liu et al.][arXiv 2024]**Exploiting Diffusion Prior for Out-of-Distribution Detection**[[PDF](https://arxiv.org/abs/2406.11105)]
 - `Resultant` [Li et al.][arXiv 2024]**Resultant Incremental Effectiveness on Likelihood for Unsupervised Out-of-Distribution Detection**[[PDF](https://arxiv.org/abs/2409.03801)]
@@ -140,12 +140,14 @@ A curated list of awesome out-of-distribution detection resources.
 
 ### Boundary Regularization
 
+- `PFS` \[Wu et al.] [ICLR 2025]**Pursuing Feature Separation based on Neural Collapse for Out-of-Distribution Detection**[[PDF](https://arxiv.org/abs/2405.17816)][[CODE](https://github.com/Wuyingwen/Pursuing-Feature-Separation-for-OOD-Detection)]
 - `MixOE` \[Zhang et al.][WACV 2023]**Mixture Outlier Exposure: Towards Out-of-Distribution Detection in Fine-grained Environments**[[PDF](https://openaccess.thecvf.com/content/WACV2023/html/Zhang_Mixture_Outlier_Exposure_Towards_Out-of-Distribution_Detection_in_Fine-Grained_Environments_WACV_2023_paper.html)]\[[CODE](https://github.com/zjysteven/MixOE)]
 - `SSL-GOOD` \[Mohseni et al.][AAAI 2020]**Self-supervised learning for generalizable out-of-distribution detection**[[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/5966/5822)]
 - `EnergyOE` \[Liu et al.][NeurIPS 2020]**Energy-based out-of-distribution detection**[[PDF](https://arxiv.org/abs/2010.03759)]\[[CODE](https://github.com/wetliu/energy_ood)]
 - `OE` \[Hendrycks et al.][ICLR 2019]**Deep anomaly detection with outlier exposure**[[PDF](https://arxiv.org/abs/1812.04606)]\[[CODE](https://arxiv.org/abs/1812.04606)]
 - `Why-RELU` \[Hein et al.][CVPR 2019]**Why relu networks yield high-confidence predictions far away from the training data and how to mitigate the problem**[[PDF](https://arxiv.org/abs/1812.05720)]\[[CODE](https://github.com/max-andr/relu_networks_overconfident)]
 - `ELOC` \[Vyas et al.][ECCV 2018]**Out-of-distribution detection using an ensemble of self supervised leave-out classifier**[[PDF](https://arxiv.org/abs/1809.03576)]
+
 
 ### Outlier Mining
 
@@ -268,6 +270,7 @@ A curated list of awesome out-of-distribution detection resources.
 - `RONIN`[Nguyen et al.]\[arxiv 2024]**Zero-Shot Object-Level Out-of-Distribution Detection with Context-Aware Inpainting**[[PDF](https://arxiv.org/abs/2402.03292)]
 
 #### CLIP-based
+
 - `OT-DETECTOR` [Liu et al.][arXiv 2025]**OT-DETECTOR: Delving into Optimal Transport for Zero-shot Out-of-Distribution Detection**[[PDF](https://arxiv.org/abs/2503.06442)]
 - `SimLabel` [Zhang et al.][ICLR 2025]**SimLabel: Consistency-Guided OOD Detection with Pretrained Vision-Language Models**[[PDF](https://openreview.net/forum?id=Aw1w5sL6ru)]
 - `LAPT` [Zhang et al.][ECCV 2024]**Label-driven Automated Prompt Tuning for OOD Detection with Vision-Language Models**[[PDF](https://arxiv.org/abs/2407.089666)]
@@ -488,6 +491,8 @@ openreview.net/forum?id=UjtiLdXGMC)]\[[CODE](https://github.com/AtsuMiyai/LoCoOp
 
 #### Methods
 
+- `DeGEM` [chen et al.][ICLR 2025]**Decoupled Graph Energy-based Model for Node Out-of-Distribution Detection on Heterophilic Graphs**[[PDF(https://openreview.net/attachment?id=NuVBI4wPMm&name=pdf)][[CODE](https://github.com/draym28/DeGEM)]
+- `EDBD` [Um et al.]\[ICLR 2025]**Spreading Out-of-Distribution Detection on Graphs**[[PDF(https://openreview.net/attachment?id=p1TBYyqy8v&name=pdf)][[CODE](https://github.com/daehoum1/edbd)]
 - `LLM-GOOD`[Xu et al.]\[arxiv 2025]**Few-Shot Graph Out-of-Distribution Detection with LLMs**[[PDF](https://arxiv.org/abs/2503.22097)]
 
 - `GOLD`[Wang et al.]\[ICLR 2025]**GOLD Graph Out-of-Distribution Detection via Implicit Adversarial Latent Generation**[[PDF](https://openreview.net/forum?id=y5einmJ0Yx)]
